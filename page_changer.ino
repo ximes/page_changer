@@ -184,8 +184,8 @@ void loop(void)
       redVal += 1;
       blueVal -= 1;
       analogWrite( REDPin, 255 - redVal );
-      analogWrite( BLUEPin, 150 - blueVal );
-      delay(3);
+      analogWrite( BLUEPin, 50 - blueVal );
+      delay(0.5);
     }
     delay(100);
     for ( int i = 255 ; i > 0 ; i -= 1 ) {
